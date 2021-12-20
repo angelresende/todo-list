@@ -1,6 +1,6 @@
 <h1 align="center">
 
-**Calculadora**
+**Todo List (Lista de Tarefas)**
 
 </h1>
 
