@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalho_secao{
+    background-color: #411564;
+    height: 50px;
+}
+
+#new{
+    text-align: center;
+    width: 130px !important;
+    height: 30px !important;
+    border-radius: 10px !important;
+    color: purple !important;
+    position:relative !important;
+    margin-bottom: 30px;
+    cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	-o-appearance:none;
+	appearance:none;
+}
+
+#wrapper{
+	width: 100%;
+	border-left: 5px solid #f9f9f9;
+	border-right: 5px solid #f9f9f9;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	width: 100%;
+	min-height: 50px;
+	padding: 5px 15px;
+    border-top: 3px solid #e6e6e6;
+	border-bottom: 3px solid #e6e6e6;
+    border-left: 3px solid #e6e6e6;
+    border-right: 3px solid #e6e6e6;
+	font-size: 16px;
+	color: #444;
+}
+button{
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-ms-appearance:none;
+	-o-appearance:none;
+	appearance:none;
+}
+.buttons{
+	height: 40px;
+	width: 70px;
+	float: right;	
+}
+.buttons button{
+  float:right;
+	border:none;
+	background-color: white;
+}
+.remove{
+	background-image: url("https://res.cloudinary.com/sbullkoft/image/upload/v1481411917/delete-128_wxp3a5.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+  margin-left:5px;
+}
+.complete{
+	border-radius: 15px;
+	background-image: url("https://res.cloudinary.com/sbullkoft/image/upload/v1481411910/tick-128_v5o7dv.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+#ready{
+	text-decoration: line-through;
+}
+
+#ready button.complete{
+	background-color: #9bd488;
+}
